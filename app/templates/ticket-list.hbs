@@ -1,0 +1,10 @@
+<ul class="list-group">
+    {{#each tickets}}
+    <li class="ticket-item-row list-group-item">
+        <div class="ticket-item-row-subject list-group-item-title">{{subject}}</div>
+        <div class="ticket-item-row-requester">From: {{requester_id}}</div>
+        <div class="ticket-item-row-responder">Agent: {{responder_id}}</div>
+        <div class="ticket-item-row-status">Status: {{status}}</div>
+    </li>
+    {{/each}}
+</ul>

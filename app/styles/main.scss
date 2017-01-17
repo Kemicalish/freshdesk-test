@@ -1,0 +1,27 @@
+@import 'bootstrap';
+@import 'vars';
+@import 'demo';
+
+body{
+    margin:10px;
+}
+
+.list-group-item{
+    border-left:4px solid black;
+}
+
+.list-group-item-title {
+ font-weight: bold;
+}
+
+.ticket-item-row{
+    border-color:mediumseagreen;
+}
+
+.contact-item-row{
+    border-color:darkorange;
+}
+
+.agent-item-row{
+    border-color:dodgerblue;
+}
